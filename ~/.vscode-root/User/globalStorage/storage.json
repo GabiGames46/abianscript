@@ -55,20 +55,20 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
+            "titleBarHeight": 50,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
-            "auxiliaryBarWidth": 300,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 28,
             "windowBorder": false,
             "modernUI": true,
             "modernUICompact": false,
             "partBounds": {
                 "activityBar": {
-                    "top": 35,
-                    "left": 4,
-                    "width": 44,
-                    "height": 965,
+                    "top": 50.400001525878906,
+                    "left": 3.9825000762939453,
+                    "width": 43.98750305175781,
+                    "height": 1403.572509765625,
                     "outerEdges": {
                         "left": true,
                         "right": false,
@@ -77,49 +77,37 @@
                     }
                 },
                 "sideBar": {
-                    "top": 35,
-                    "left": 48,
-                    "width": 300,
-                    "height": 965,
+                    "top": 50.400001525878906,
+                    "left": 47.99250030517578,
+                    "width": 299.9925231933594,
+                    "height": 1403.572509765625,
                     "outerEdges": {
                         "left": false,
                         "right": false,
-                        "top": true,
-                        "bottom": true
-                    }
-                },
-                "auxiliaryBar": {
-                    "top": 35,
-                    "left": 1624,
-                    "width": 292,
-                    "height": 965,
-                    "outerEdges": {
-                        "left": false,
-                        "right": true,
                         "top": true,
                         "bottom": true
                     }
                 },
                 "panel": {
-                    "top": 742,
-                    "left": 352,
-                    "width": 1268,
-                    "height": 258,
+                    "top": 1195.965087890625,
+                    "left": 351.9674987792969,
+                    "width": 1026.0225830078125,
+                    "height": 257.9850158691406,
                     "outerEdges": {
                         "left": false,
-                        "right": false,
+                        "right": true,
                         "top": false,
                         "bottom": true
                     }
                 },
                 "editor": {
-                    "top": 35,
-                    "left": 352,
-                    "width": 1268,
-                    "height": 703,
+                    "top": 50.400001525878906,
+                    "left": 351.9674987792969,
+                    "width": 1026.0225830078125,
+                    "height": 1141.58251953125,
                     "outerEdges": {
                         "left": false,
-                        "right": false,
+                        "right": true,
                         "top": true,
                         "bottom": false
                     }
@@ -132,11 +120,12 @@
             "folder": "file:///home/abian/scripts",
             "backupPath": "/home/abian/scripts/~/.vscode-root/Backups/f6a728fd4579d5921b608e3d605c4c36",
             "uiState": {
-                "mode": 0,
-                "x": 364,
-                "y": 140,
-                "width": 1200,
-                "height": 800
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1032,
+                "zoomLevel": -2
             }
         },
         "openedWindows": []
@@ -148,7 +137,7 @@
             "workspaces": {
                 "10696d184c494ab94e7856dfaa5594cb": {
                     "sideBarVisible": true,
-                    "auxiliaryBarVisible": true
+                    "auxiliaryBarVisible": false
                 }
             }
         }

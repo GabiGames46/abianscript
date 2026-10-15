@@ -15,11 +15,10 @@
 	"deferredTitleGeneration": false,
 	"markdownPlanRichLinksEnabled": false,
 	"artifactTools": false,
-	"artifactToolsCompactPrompts": false,
 	"autoAttachPullRequests": true,
 	"migrateLegacyCopilotCliEnabled": false,
 	"sessionCatalogEnabled": true,
-	"showExternalSessions": "recent",
+	"showExternalSessions": "last7Days",
 	"autoArchiveMergedSessionsAfterDays": 0,
 	"autoDeleteArchivedMergedSessionsAfterDays": 0,
 	"copilotMultiRootEnabled": false,
@@ -31,9 +30,19 @@
 	"githubEnterpriseUri": "",
 	"sandbox": {
 		"enabled": "off",
-		"enabled.windows": "off",
 		"allowNetwork": true,
+		"allowLocalNetwork": false,
 		"allowUnsandboxedCommands": true,
+		"sandboxMcpServers": true,
+		"sandboxLspServers": true,
+		"authenticateGit": true,
+		"authenticateGh": true,
+		"allowDevToolAccess": true,
+		"fileSystem.userConfiguredPaths": {
+			"readwritePaths": [],
+			"readonlyPaths": [],
+			"deniedPaths": []
+		},
 		"fileSystem.linux": {
 			"denyRead": [],
 			"allowRead": [],
@@ -64,10 +73,9 @@
 	"opus48Prompt": false,
 	"toolSearchEnabled": true,
 	"toolSearchDeferThreshold": 1,
-	"hydraFusion": false,
+	"hydraFusion": true,
 	"skillCharBudget": 15000,
 	"autoModeTierOverride": "",
-	"subagentModelGuidance": false,
 	"modelCapabilityOverrides": {},
 	"agentMerge.enabled": false,
 	"agentMerge.addressReviews": true,
@@ -76,6 +84,11 @@
 	"agentMerge.mergePullRequest": "never",
 	"agentMerge.mergeMethod": "auto",
 	"agentMerge.replyAttribution": true,
+	"canvasesEnabled": false,
+	"overlapProviderPreparation": false,
+	"workspaceSnapshotEnabled": false,
+	"agentOrchestrationLimits": "on",
+	"mcpToolRoutingEnabled": false,
 	"autoReplyEnabled": false,
 	"globalAutoApproveEnabled": false,
 	"editAutoApprovePatterns": {
@@ -100,6 +113,8 @@
 		"**/.codex/config.toml": false,
 		"**/.codex/hooks.json": false
 	},
+	"runtimePath": "",
+	"mcpConnectorsEnabled": false,
 	"terminalAutoApproveEnabled": true,
 	"terminalAutoApproveRules": {
 		"cd": true,
@@ -134,6 +149,7 @@
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+show\\b/": true,
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+show\\b.*\\s--output(=|\\s|$)/": false,
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+diff\\b/": true,
+		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+diff\\b.*\\s--[^\\w\\s]*o[^\\w\\s]*u[^\\w\\s]*t[^\\w\\s]*p[^\\w\\s]*u[^\\w\\s]*t[^\\w\\s]*(=|\\s|$)/": false,
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+ls-files\\b/": true,
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+grep\\b/": true,
 		"/^git(\\s+(-(?-i:C)\\s+\\S+|--no-pager))*\\s+grep\\b.*\\s(?-i:-[aIivwhHEGPFnlLqzco]*[^\\w\\s]*O\\S*)(\\s|$)/": false,
@@ -242,5 +258,8 @@
 		"trustedUris": [
 			"file:///home/abian/scripts"
 		]
-	}
+	},
+	"tgrep": false,
+	"localIndexEnabled": true,
+	"claudeDefaultReasoningEffort": ""
 }
