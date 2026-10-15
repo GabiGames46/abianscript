@@ -1,0 +1,21 @@
+2026-09-25 17:15:02.351 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-25 17:15:02.378 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-25 17:15:02.629 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:03.086 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:03.096 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-25 17:15:03.201 [info] Started local extension host with pid 1009.
+2026-09-25 17:15:03.429 [info] [AgentHost:renderer] Protocol connection established; clientId=8683e1e0-8dd2-49c1-b538-f708f459d2d0
+2026-09-25 17:15:04.336 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 17:15:04.505 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-25 17:15:04.597 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-25 17:15:04.604 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-25 17:15:04.616 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-25 17:15:04.704 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:04.720 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:04.790 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:04.851 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-25 17:15:05.001 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:07.816 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/N2ZiY2UyOTUtN2QyNS00N2I1LTk5NTEtNGY2ZTQ2ZWYwYjg3" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-25 17:15:09.336 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 17:15:11.753 [info] [perf] Render performance baseline is 25ms
+2026-09-25 18:29:48.577 [error] Error while getting the latest version for the extension github.copilot-chat from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed

@@ -1,0 +1,23 @@
+2026-09-25 17:15:02.796 [info] Agent Host process started successfully
+2026-09-25 17:15:02.817 [info] AgentService initialized
+2026-09-25 17:15:02.823 [info] Registering agent provider: copilotcli
+2026-09-25 17:15:02.825 [info] Registering agent provider: claude
+2026-09-25 17:15:02.829 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-25 17:15:02.848 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-25 17:15:02.879 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-df3ea57e6e70/g9GcxwrDx4Js2UXigcJhyQ.sock
+2026-09-25 17:15:02.893 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-25 17:15:02.900 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-25 17:15:02.906 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 82ms (0 db opens, 0 db stats)
+2026-09-25 17:15:02.907 [info] [Copilot] Listing discoverable chats...
+2026-09-25 17:15:02.909 [info] [Copilot] Starting CopilotClient...
+2026-09-25 17:15:02.910 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-25 17:15:02.916 [info] [Copilot] Resolved runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-09-25 17:15:02.949 [info] [Copilot] CopilotClient started successfully
+2026-09-25 17:15:02.988 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-25 17:15:02.990 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-25 17:15:03.098 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-25 17:15:03.198 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-25 17:15:03.232 [info] [ProtocolServer] Initialize: clientId=8683e1e0-8dd2-49c1-b538-f708f459d2d0, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-25 17:15:04.626 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-25 17:15:04.627 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-25 17:15:10.119 [error] #1: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST fetch failed

@@ -1,0 +1,42 @@
+2026-09-24 18:42:50.480 [info] Agent Host process started successfully
+2026-09-24 18:42:50.502 [info] AgentService initialized
+2026-09-24 18:42:50.508 [info] Registering agent provider: copilotcli
+2026-09-24 18:42:50.510 [info] Registering agent provider: claude
+2026-09-24 18:42:50.514 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:42:50.531 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-24 18:42:50.552 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:42:50.567 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-df3ea57e6e70/WllvyUPSBrFXMZveWS9MkA.sock
+2026-09-24 18:42:50.568 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-24 18:42:50.610 [info] [Copilot] Listing chats to migrate...
+2026-09-24 18:42:50.610 [info] [Copilot] Starting CopilotClient...
+2026-09-24 18:42:50.612 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-24 18:42:50.618 [info] [Copilot] Resolved runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-09-24 18:42:50.634 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-24 18:42:50.639 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:42:50.645 [info] [Copilot] CopilotClient started successfully
+2026-09-24 18:42:50.683 [info] [ProtocolServer] Initialize: clientId=ef99cd17-2222-4fd9-9e4b-d4ddee53787a, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-24 18:42:50.689 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-09-24 18:42:50.690 [info] [Copilot] Found 0 legacy sessions
+2026-09-24 18:42:50.708 [info] [AgentService] showExternalSessions changed 'none' -> 'recent'; queueing session list reconciliation
+2026-09-24 18:42:50.725 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 216ms (0 db opens, 0 db stats)
+2026-09-24 18:42:50.725 [info] [Copilot] Listing discoverable chats...
+2026-09-24 18:42:50.730 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-24 18:42:50.733 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-24 18:42:50.736 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-24 18:42:50.738 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-24 18:42:52.032 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-24 18:42:52.034 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-24 18:43:34.955 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:43:35.049 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:43:35.138 [info] [ProtocolServer] Initialize: clientId=2a07bfc1-4b04-4207-b4c0-044f78cd4e98, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-24 18:43:36.373 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-24 18:43:36.374 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-24 18:43:38.830 [info] [ProtocolServer] Client disconnected: 2a07bfc1-4b04-4207-b4c0-044f78cd4e98, subscriptions=1
+2026-09-24 18:43:38.831 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:43:47.781 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST fetch failed
+2026-09-24 18:43:52.919 [error] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST fetch failed
+2026-09-24 18:46:32.750 [info] [ProtocolServer] Client disconnected: ef99cd17-2222-4fd9-9e4b-d4ddee53787a, subscriptions=1
+2026-09-24 18:46:32.751 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:46:32.751 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-24 18:46:32.753 [info] AgentService: shutting down all providers...
+2026-09-24 18:46:32.753 [info] [Copilot] Shutting down...

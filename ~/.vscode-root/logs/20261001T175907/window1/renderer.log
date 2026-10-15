@@ -1,0 +1,25 @@
+2026-10-01 17:59:08.252 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-01 17:59:08.280 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-01 17:59:08.515 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:08.855 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-01 17:59:08.859 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGE5ZTdjYTItM2VkMi00Yjk0LWEzYmYtYzZjZGU2NmFhMTc0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:09.065 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGE5ZTdjYTItM2VkMi00Yjk0LWEzYmYtYzZjZGU2NmFhMTc0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:09.075 [info] Started local extension host with pid 1096.
+2026-10-01 17:59:09.313 [info] [AgentHost:renderer] Protocol connection established; clientId=cbd76059-a2c3-4f50-b340-e8707896809f
+2026-10-01 17:59:10.366 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-01 17:59:10.573 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGE5ZTdjYTItM2VkMi00Yjk0LWEzYmYtYzZjZGU2NmFhMTc0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:10.608 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGE5ZTdjYTItM2VkMi00Yjk0LWEzYmYtYzZjZGU2NmFhMTc0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:10.627 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-01 17:59:10.636 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-01 17:59:10.641 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-01 17:59:10.644 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-01 17:59:10.679 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGE5ZTdjYTItM2VkMi00Yjk0LWEzYmYtYzZjZGU2NmFhMTc0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-01 17:59:10.818 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-01 17:59:11.819 [info] [perf] Render performance baseline is 23ms
+2026-10-01 17:59:15.366 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-01 18:01:37.297 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-01 18:01:37.427 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-01 18:01:37.505 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-01 18:01:37.507 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-01 18:01:39.445 [error] [Extension Host] (node:1096) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,17 @@
+2026-09-25 17:15:01.620 [info] StorageMainService: creating application shared storage
+2026-09-25 17:15:01.730 [info] [shared storage] Creating shared storage database at '/root/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-25 17:15:01.731 [info] [shared storage] Initializing fallback application storage (path: /home/abian/scripts/~/.vscode-root/User/globalStorage/state.vscdb)
+2026-09-25 17:15:01.783 [info] [shared storage] Fallback application storage initialized with 75 items
+2026-09-25 17:15:02.338 [info] update#setState idle
+2026-09-25 17:15:02.388 [info] AgentHostProcessManager: agent host started
+2026-09-25 17:15:02.839 [error] [AgentHost:stderr] (node:921) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-25 17:15:32.340 [info] update#setState checking for updates
+2026-09-25 17:31:53.950 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/2242ebbb54efeeb0129e08e919e7e8d43033cd83?bg=true&u=none - error undefined net::ERR_TIMED_OUT
+2026-09-25 17:31:53.951 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:139974)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2026-09-25 17:31:53.951 [info] update#setState idle
+2026-09-25 18:29:48.235 [info] update#setState checking for updates
+2026-09-25 18:29:48.543 [info] update#setState available for download
