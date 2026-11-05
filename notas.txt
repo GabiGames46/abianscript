@@ -1,0 +1,3 @@
+Línea 1: Estudio de Linux
+Línea 2: Prácticas de Bash
+Línea 3: Automatización de tareas

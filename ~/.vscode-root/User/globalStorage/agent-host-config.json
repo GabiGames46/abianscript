@@ -11,11 +11,17 @@
 	"codexAgentEnabled": false,
 	"systemProxyEnabled": true,
 	"githubMcpServerEnabled": true,
+	"mcpToolRoutingEnabled": false,
 	"activeAgentTitleGeneration": false,
 	"deferredTitleGeneration": false,
+	"mcpConnectorsEnabled": false,
 	"markdownPlanRichLinksEnabled": false,
+	"workspaceSnapshotEnabled": false,
+	"agentOrchestrationLimits": "on",
 	"artifactTools": false,
+	"canvasesEnabled": false,
 	"autoAttachPullRequests": true,
+	"overlapProviderPreparation": false,
 	"migrateLegacyCopilotCliEnabled": false,
 	"sessionCatalogEnabled": true,
 	"showExternalSessions": "last7Days",
@@ -69,13 +75,17 @@
 	"enableCustomTerminalTool": false,
 	"enableShellInitScript": false,
 	"copilotSdkLogLevel": "info",
+	"runtimePath": "",
 	"claudeAdvisor": false,
+	"tgrep": false,
+	"localIndexEnabled": true,
 	"opus48Prompt": false,
 	"toolSearchEnabled": true,
 	"toolSearchDeferThreshold": 1,
 	"hydraFusion": true,
 	"skillCharBudget": 15000,
 	"autoModeTierOverride": "",
+	"claudeDefaultReasoningEffort": "",
 	"modelCapabilityOverrides": {},
 	"agentMerge.enabled": false,
 	"agentMerge.addressReviews": true,
@@ -84,11 +94,6 @@
 	"agentMerge.mergePullRequest": "never",
 	"agentMerge.mergeMethod": "auto",
 	"agentMerge.replyAttribution": true,
-	"canvasesEnabled": false,
-	"overlapProviderPreparation": false,
-	"workspaceSnapshotEnabled": false,
-	"agentOrchestrationLimits": "on",
-	"mcpToolRoutingEnabled": false,
 	"autoReplyEnabled": false,
 	"globalAutoApproveEnabled": false,
 	"editAutoApprovePatterns": {
@@ -113,8 +118,6 @@
 		"**/.codex/config.toml": false,
 		"**/.codex/hooks.json": false
 	},
-	"runtimePath": "",
-	"mcpConnectorsEnabled": false,
 	"terminalAutoApproveEnabled": true,
 	"terminalAutoApproveRules": {
 		"cd": true,
@@ -258,8 +261,5 @@
 		"trustedUris": [
 			"file:///home/abian/scripts"
 		]
-	},
-	"tgrep": false,
-	"localIndexEnabled": true,
-	"claudeDefaultReasoningEffort": ""
+	}
 }
