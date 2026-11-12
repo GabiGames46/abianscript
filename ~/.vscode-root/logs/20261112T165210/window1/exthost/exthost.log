@@ -11,3 +11,5 @@
 2026-11-12 16:52:14.461 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2026-11-12 16:52:14.481 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
 2026-11-12 16:52:15.855 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-11-12 17:55:10.249 [info] Extension host terminating: received terminate message from renderer
+2026-11-12 17:55:10.271 [info] Extension host with pid 814 exiting with code 0

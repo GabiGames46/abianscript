@@ -27,3 +27,8 @@
 2026-11-12 16:52:13.696 [info] Registering agent provider: codex
 2026-11-12 16:52:15.415 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
 2026-11-12 16:52:15.417 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-11-12 17:55:10.359 [info] [ProtocolServer] Client disconnected: 9b73738d-ce44-4934-aa16-7ee2e36a5fb0, subscriptions=1
+2026-11-12 17:55:10.360 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-12 17:55:10.361 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-12 17:55:10.368 [info] AgentService: shutting down all providers...
+2026-11-12 17:55:10.368 [info] [Copilot] Shutting down...

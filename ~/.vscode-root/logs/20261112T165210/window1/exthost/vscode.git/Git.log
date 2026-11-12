@@ -554,3 +554,17 @@
 2026-11-12 17:52:09.657 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
 2026-11-12 17:52:09.967 [info] > git check-ignore -v -z --stdin [2ms]
 2026-11-12 17:52:36.759 [info] > git check-ignore -v -z --stdin [1ms]
+2026-11-12 17:55:04.378 [info] > git config --get commit.template [15ms]
+2026-11-12 17:55:04.388 [info] > git ls-files --stage -- usuarios-cut.sh [12ms]
+2026-11-12 17:55:04.389 [warning] [GitFileSystemProvider][stat] File not found - git:/home/abian/scripts/usuarios-cut.sh.git?%7B%22path%22%3A%22%2Fhome%2Fabian%2Fscripts%2Fusuarios-cut.sh%22%2C%22ref%22%3A%22%22%7D
+2026-11-12 17:55:04.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-11-12 17:55:04.406 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-11-12 17:55:04.466 [info] > git status -z -uall [68ms]
+2026-11-12 17:55:04.492 [info] > git -c i18n.logOutputEncoding=UTF-8 blame --root --incremental 68bb0fcb3fe622989cdfe4fb092d98fe508ae120 -- usuarios-cut.sh [15ms]
+2026-11-12 17:55:04.492 [info] fatal: no such path usuarios-cut.sh in 68bb0fcb3fe622989cdfe4fb092d98fe508ae120
+2026-11-12 17:55:04.494 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2026-11-12 17:55:04.506 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 68bb0fcb3fe622989cdfe4fb092d98fe508ae120...refs/remotes/origin/main -- [2ms]
+2026-11-12 17:55:09.502 [info] > git config --get commit.template [6ms]
+2026-11-12 17:55:09.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-11-12 17:55:09.513 [info] > git status -z -uall [5ms]
+2026-11-12 17:55:09.515 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
