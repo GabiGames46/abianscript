@@ -1,0 +1,1 @@
+du -h --max-depth=1 "$HOME" 2>/dev/null | sort -hr | head -n 5

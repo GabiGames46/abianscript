@@ -1,0 +1,13 @@
+2026-11-12 16:52:13.283 [info] Extension host with pid 814 started
+2026-11-12 16:52:13.283 [info] Skipping acquiring lock for /home/abian/scripts/~/.vscode-root/User/workspaceStorage/10696d184c494ab94e7856dfaa5594cb.
+2026-11-12 16:52:13.579 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-12 16:52:13.624 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-12 16:52:13.895 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-11-12 16:52:14.116 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-11-12 16:52:14.179 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-12 16:52:14.375 [info] Eager extensions activated
+2026-11-12 16:52:14.375 [info] [node-compile-cache] extension-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/extension-host, active: none)
+2026-11-12 16:52:14.458 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-12 16:52:14.461 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-12 16:52:14.481 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-12 16:52:15.855 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'

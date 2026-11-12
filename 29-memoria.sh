@@ -1,0 +1,1 @@
+ps aux --sort=-%mem | head -n 6 | awk '{print $1, $2, $4}'

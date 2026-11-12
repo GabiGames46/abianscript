@@ -24,3 +24,8 @@
 2026-11-05 18:00:43.423 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=405, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
 2026-11-05 18:00:45.116 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
 2026-11-05 18:00:45.117 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-11-05 18:46:05.367 [info] [ProtocolServer] Client disconnected: 70227a3b-bbe7-4c78-8563-1719de5952e2, subscriptions=1
+2026-11-05 18:46:05.369 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-05 18:46:05.369 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-05 18:46:05.387 [info] AgentService: shutting down all providers...
+2026-11-05 18:46:05.388 [info] [Copilot] Shutting down...

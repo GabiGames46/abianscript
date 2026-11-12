@@ -1,0 +1,4 @@
+Maquina: 301-PC03
+Usuarios humanos:
+nobody
+abian

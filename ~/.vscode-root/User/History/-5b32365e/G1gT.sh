@@ -1,0 +1,1 @@
+{ echo "Maquina: $(hostname)"; echo "Usuarios humanos:"; awk -F: '$3>=1000{print $1}' /etc/passwd; } | tee informe.txt

@@ -1,0 +1,29 @@
+2026-11-12 16:52:12.695 [info] Agent Host process started successfully
+2026-11-12 16:52:12.737 [info] AgentService initialized
+2026-11-12 16:52:12.754 [info] Registering agent provider: copilotcli
+2026-11-12 16:52:12.758 [info] Registering agent provider: claude
+2026-11-12 16:52:12.762 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-12 16:52:12.763 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-12 16:52:12.822 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-11-12 16:52:12.859 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-df3ea57e6e70/NNSw_D6uOFLtf_UoaxcqEw.sock
+2026-11-12 16:52:12.877 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-11-12 16:52:12.888 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-11-12 16:52:12.892 [info] [CopilotDiscovery] Started: maxCandidateWatches=32, maxConcurrentStats=4, coalesceMs=500
+2026-11-12 16:52:12.893 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 137ms (0 db opens, 0 db stats)
+2026-11-12 16:52:12.900 [info] [CopilotDiscovery] Scan 1 started: initial=true, candidates=0, reasons={}, watched=0, pending=0, ignoredHostEvents=0
+2026-11-12 16:52:12.901 [info] [Copilot] Listing discoverable chats...
+2026-11-12 16:52:12.901 [info] [Copilot] Starting CopilotClient...
+2026-11-12 16:52:12.901 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-11-12 16:52:12.909 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-11-12 16:52:12.931 [info] [node-compile-cache] agent-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/agent-host, active: none)
+2026-11-12 16:52:12.949 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-12 16:52:13.185 [info] [ProtocolServer] Initialize: clientId=9b73738d-ce44-4934-aa16-7ee2e36a5fb0, protocolVersions=[0.10.0, 0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-11-12 16:52:13.320 [info] [Copilot] CopilotClient started successfully
+2026-11-12 16:52:13.323 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-11-12 16:52:13.324 [info] [CopilotDiscovery] Scan 1 catalog: sdkSessions=0, candidates=0, listMs=422, classifyMs=2, published=0, external=0, legacy=0, known=0, disabledLegacy=0, archivedLegacy=0, missingCwd=0, unsupportedClient=0, stale=0, failed=0
+2026-11-12 16:52:13.325 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=425, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
+2026-11-12 16:52:13.691 [info] [Copilot] Startup config changed (skillCharBudget=30000), restarting CopilotClient
+2026-11-12 16:52:13.691 [info] [Copilot] Restarting CopilotClient (startup config changed: skillCharBudget=30000)
+2026-11-12 16:52:13.696 [info] Registering agent provider: codex
+2026-11-12 16:52:15.415 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-11-12 16:52:15.417 [info] [Claude] SDK not downloaded yet; deferring chat discovery

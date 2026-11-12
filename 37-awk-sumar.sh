@@ -1,0 +1,1 @@
+ls -l | awk '{sum += $5} END {print "Total bytes:", sum}'
